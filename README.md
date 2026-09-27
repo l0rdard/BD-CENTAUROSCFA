@@ -29,3 +29,7 @@ Debe registrar la asistencia a los entrenamientos para alertar al DT sobre ausen
 (Avanzada) Calcular cuánta plata ingresó al club por cobro de cuotas en lo que va del año, agrupado mes a mes.
 
 (Simple) Mostrar los días, horarios y la dirección exacta de todos los entrenamientos programados para esta semana.
+
+
+FICHA IA:
+aclaracion: no utilize ia, pero hice unas consultas a mi padre sobre como hacer consultas en sql, en general sobre COUNT, GROUP, HAVING, ORDER y sobre como se utilizaban IS, ON.
