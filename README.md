@@ -32,4 +32,4 @@ Debe registrar la asistencia a los entrenamientos para alertar al DT sobre ausen
 
 
 FICHA IA:
-aclaracion: no utilize ia, pero hice unas consultas a mi padre sobre como hacer consultas en sql, en general sobre COUNT, GROUP, HAVING, ORDER y sobre como se utilizaban IS, ON.
+aclaracion: no utilize ia
