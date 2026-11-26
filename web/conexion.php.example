@@ -1,0 +1,17 @@
+<?php
+$host = "";
+$puerto = "";
+$nombre_bd = "";
+$usuario = "";
+$contrasena = "";
+
+try {
+    $bd = new PDO(
+        "mysql:host=$host;port=$puerto;dbname=$nombre_bd;charset=utf8mb4",
+        $usuario,$contrasena
+    );
+    $bd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    die("Error de conexión: " . $e->getMessage());
+}
+?>

@@ -1,10 +1,13 @@
 import mysql.connector
 
+with open("credenciales.txt", "r", encoding="utf-8") as archivo:
+    host, usuario, contraseña, base = archivo.read().splitlines()
+
 conexion = mysql.connector.connect(
-    host="bko24lbr9fqwf0jpxxuv-mysql.services.clever-cloud.com",
-    user="up7cqju1bn8bzq4v",
-    password="LKx1C4rz2gJOYcSI9va1",
-    database="bko24lbr9fqwf0jpxxuv",
+    host=host,
+    user=usuario,
+    password=contraseña,
+    database=base,
     port=3306
 )
 

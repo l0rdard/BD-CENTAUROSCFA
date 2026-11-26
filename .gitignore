@@ -1,5 +1,6 @@
-
 credenciales.txt
 entorno/
 pycrud/
 repo-github/
+conexion.php
+.env
